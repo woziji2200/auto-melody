@@ -1,0 +1,6 @@
+numpy>=1.26
+soundfile>=0.12
+torch>=2.4
+torchaudio>=2.4
+transformers>=4.45
+tqdm>=4.66

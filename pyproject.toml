@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "auto-melody-consensus-phrase"
+version = "1.0.0"
+description = "Generate Malody 4K charts from music audio"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.26",
+  "soundfile>=0.12",
+  "torch>=2.4",
+  "torchaudio>=2.4",
+  "transformers>=4.45",
+  "tqdm>=4.66",
+]
+
+[tool.setuptools.packages.find]
+include = ["auto_melody*", "training*"]
